@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:fontFamily="sans-serif"
+        android:text="Android Developer Fundamentals"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textAlignment="center"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_light"
+            android:text="This is an orange TextView"
+            android:textSize="@dimen/textview_size"
+            android:textAlignment="center"
+            android:padding="@dimen/small_padd"
+            android:textColor="@android:color/white"></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textview_size"
+            android:textAlignment="center"
+            android:paddingBottom="@dimen/small_padd"
+            android:paddingTop="@dimen/small_padd"
+            android:background="@android:color/holo_green_light"
+            android:text="This is a green TextView"
+            android:textColor="@android:color/white"></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textview_size"
+            android:textAlignment="center"
+            android:paddingTop="@dimen/small_padd"
+            android:paddingBottom="@dimen/small_padd"
+            android:paddingRight="@dimen/extrasmall_padd"
+            android:paddingLeft="@dimen/extrasmall_padd"
+            android:background="@android:color/holo_blue_light"
+            android:text="This is a blue TextView"
+            android:textColor="@android:color/white"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/extrasmall_padd">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="THIS IS A BUTTON"
+            android:textSize="@dimen/textview_size"
+            android:background="@color/turcoaz"></Button>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/paint"></ImageView>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:text="THIS IS A GREEN BUTTON"
+            android:textSize="@dimen/textview_size"></Button>
+    </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:hint="@string/editText"
+            android:paddingTop="@dimen/padd_value"
+            android:textSize="@dimen/textview_size"></EditText>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/underline"
+            android:background="@color/grey"></View>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:paddingTop="@dimen/small_padd"
+            android:paddingBottom="@dimen/small_padd"
+            android:hint="@string/editText2"
+            android:textSize="@dimen/textview_size"></EditText>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/underline"
+            android:background="@android:color/black"
+           ></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turcoaz">
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Notify me :)"></CheckBox>
+        <Switch
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Auto backup"></Switch>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turcoaz">
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/turcoaz"
+            android:numStars="5"
+            android:progressTint="@color/roz"
+            android:rating="3"></RatingBar>
+
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turcoaz">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no"></RadioButton>
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/turcoaz">
+    </View>
+</LinearLayout>

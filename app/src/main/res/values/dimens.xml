@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padd_value">30dp</dimen>
+    <dimen name="main_text">10sp</dimen>
+    <dimen name="textview_size">20dp</dimen>
+    <dimen name="small_padd">15dp</dimen>
+    <dimen name="extrasmall_padd">8dp</dimen>
+    <dimen name="underline">5dp</dimen>
+</resources>
